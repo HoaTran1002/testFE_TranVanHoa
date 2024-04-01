@@ -1,3 +1,169 @@
-.sa{
-    color: red;
+
+* {
+    box-sizing: border-box;
+    font-family: Lexend;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header {
+    width: 100%;
+    height: 720px;
+    z-index: 0;
+
+}
+.header-background {
+    width: calc(100% / 3); 
+    height: 50%; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    background: linear-gradient(35deg, 
+    #82F7FF, #82FFD2); 
+    filter: blur(140px);
+}
+
+
+
+.navbar {
+    /* box-sizing: border-box; */
+    width: 88%; 
+    height: 46px;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.navbar-brand{
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+.navbar-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117.51px;
+    height: 36px;
+    top: 45px;
+    left: 91.23px;
+    gap: 0px;
+    border-radius: 4px 4px 24px 4px;
+    opacity: 0px;
+
+}
+.navbar-logo-block{
+    position: relative;
+    top: 0px;
+    width: 36.78px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+  
+
+}
+.navbar-logo-block-1{
+    position: absolute;
+    width: 32.7px;
+    height: 32px;
+    top: 0;
+    left: 0x;
+    gap: 0px;
+    border-radius: 4px 4px 24px 4px;
+    opacity: 0px;
+    background: #F59E0B;
+;    
+}
+.navbar-logo-block-2{
+
+    position: absolute;
+    width: 32.7px;
+    height: 32px;
+    top: 4px;
+    left: 4px;
+    gap: 0px;
+    border-radius: 4px 4px 24px 4px;
+    opacity: 0px;
+    background: #4BE4C9;
+
+
+}
+.navbar-logo-brand{
+    width: 68.46px;
+    height: 20px;
+    top: 55px;
+    left: 140.28px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+
+    margin-left: 12px;
+}
+.header-nav-item{
+    width: auto;
+    padding: 4px 16px 4px 16px;
+    border: solid #fff 0.5px;
+    border-radius: 32px;
+    opacity: 0px;
+    margin-right: 24px;
+
+}
+.header-nav-item a{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.5px;
+    text-align: left;
+    color: #fff;
+}
+.sign-up-btn{
+    width: auto;
+    padding: 12px 24px 12px 24px; 
+    border-radius: 32px;
+    border: 0px;
+    opacity: 0px;
+    background: #D1FAE5;
+    margin-left: 14px;
+}
+.sign-up-btn a{
+    color: #047857;
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+
+}
+.container-fluid{
+    padding: 0;
+}
+.header-content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.header-block-1{
+    width: 100%;
+    height: 100%;
+}
+.header-block-2{
+    width: 100%;
+    height: 100%;
 }
