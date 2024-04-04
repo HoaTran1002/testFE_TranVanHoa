@@ -639,3 +639,39 @@ body {
     color: #888B97;
 }
 /* Ready To Sell */
+/* Footer */
+.footer-list-item{
+    position: relative;
+    margin: auto;
+    width: 1200px;
+    height: 180px;
+    display: flex;
+    top: 120px;
+    justify-content: space-between;
+
+}
+.footer-list-item-data-text{
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+.footer-item-data-title-text{
+    font-family: Lexend;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+    text-align: left;
+    color: #0E1735;
+}
+.footer-item-data-text{
+
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+    color: #888B97;
+    margin-top: 10px;
+    display: block;
+
+}
