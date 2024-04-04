@@ -19,6 +19,7 @@ body {
     width: 100%;
     height: 720px;
     z-index: 0;
+    margin-bottom: 120px;
 
 }
 .header-background {
@@ -155,6 +156,8 @@ body {
     padding: 0;
 }
 .header-content{
+    position: absolute;
+    top: 0;
     display: flex;
     width: 100%;
     height: 100%;
@@ -463,3 +466,176 @@ body {
     background-size:contain;
     border-radius:0px, 0px, 0px, 80px
 }
+/* BODY */
+/* Feature House */
+.body-feature-house{
+    box-sizing: border-box;
+    width: 1200px;
+    height: 662px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 120px;
+}
+.feature-house-nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-house-nav-item{
+   
+}
+.feature-house-nav-item-descrip{
+    box-sizing: border-box;
+    width: 293px;
+    height: 70px;
+    top: 840px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.feature-house-nav-item-descri-recoment{
+ 
+    height: 18px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.feature-house-nav-item-descri-line{
+    top: 10px;
+    width: 32px;
+    height: 1px;
+    border: 1px solid #F59E0B;
+}
+.feature-house-nav-item-descri-recoment-text span{
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.5px;
+    text-align: left;
+    color: #F59E0B;
+    padding-left: 5px;
+
+}
+.feature-house-nav-item-descri-title{
+    padding-left: 12%;
+    width: 253px;
+    height: 40px;
+    top: 870px;
+    left: 10%;
+    gap: 0px;
+    opacity: 0px;
+}
+.feature-house-nav-item-descri-title span{
+    font-family: Lexend;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    color:#1B1C57;
+
+}
+
+.feature-house-nav-item-tab{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.feature-house-nav-item-tab-house{
+    width: 135px;
+    height: 52px;
+    padding: 12px 24px 12px 24px;
+    gap: 8px;
+    border-radius: 32px;
+
+    background-color: #D1FAE5;
+
+}
+.feature-house-nav-item-tab-villa{
+    width: 119px;
+    height: 52px;
+    padding: 12px 24px 12px 24px;
+    gap: 8px;
+    border-radius: 32px ;
+    border: 1px solid 
+    #888B97;
+
+    
+}
+.feature-house-nav-item-tab-apart{ 
+    
+}
+.feature-house-nav-item-arrow{
+
+}
+.btn-arrow-left{
+    border-radius: 32px;
+    Padding:12px, 16px, 12px, 16px;
+    background-color: #E0E3EB;
+    color: #3C4563;
+    border: none;
+    width: 45px;
+    height: 45px;
+    margin-right: 4px;
+}
+.btn-arrow-right{
+    border-radius: 32px;
+    border-radius: 32px;
+    Padding:12px, 16px, 12px, 16px;
+    background-color:#10B981;
+    border: none;
+    color: #FFF;
+    width: 45px;
+    height: 45px;
+}
+.card-list{
+
+}
+
+.card-img{
+    height: 382px;
+}
+.card-lable{
+
+}
+.card-lable-text{
+    padding-left: 6px;
+}
+.card-infor-enginee{
+    display: flex;
+    justify-content: space-between; 
+    position: absolute; 
+    top:85%; 
+    width:100%;
+}
+.card-infor-enginee-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.card-infor-enginee-text{
+    flex:0.98; 
+    padding-left: 4px;
+}
+.card-infor-enginee-name{
+    font-family: Lexend;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #0E1735;
+}
+.card-infor-enginee-descript{
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #888B97;
+}
+/* Ready To Sell */
